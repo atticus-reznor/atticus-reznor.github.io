@@ -1,9 +1,14 @@
+@media only screen and (max-width: 9999px){
+   
 
+    .covers-two{
+    display: none;
+    }
+    
+}
 
 
 @media only screen and (max-width: 1200px){
-    
-
     
 }
     
@@ -18,6 +23,11 @@
     overflow-x: hidden;
         max-width: 99%;
 }
+    .covers-two{
+    display: block;
+        
+    }
+    
    .section-main,
 .section-photo,
 .section-video,
@@ -53,8 +63,7 @@
     filter: invert(80%);
     width: 140px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }  
     
     nav {
@@ -62,9 +71,7 @@
     width: 100%;
     z-index: 1;
     top: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
     
   .nav2{
@@ -75,8 +82,7 @@
     position: relative;
     top: 180px;
     max-width:100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
     
     .section-video iframe{
@@ -95,8 +101,7 @@
     
   .photo-showcase div {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }  
     
  da-photo img{
@@ -112,8 +117,14 @@
     position: relative;
     top: 160px;
     width:100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
+}
+    
+    .music-showcase-two {
+    position: relative;
+    top: 160px;
+    width:100%;
+    margin: 0 auto;
 }
 
 .section-music {
@@ -125,41 +136,77 @@
 }
 
 .section-music img{
-    height: 198px;
+    height: 130px;
     border: 2px solid #c9c9c9;
-}   
-    .cd-mount{background-image: url(img/music/thumbs/mount-thumb.jpg);
-    background-size: contain;
-    height: 150px;
-    width: 150px;
-    border: 2px solid #c9c9c9;
-    float: left;} 
-    .cd-donk{background-image: url(img/music/thumbs/donk-thumb.jpg);
-    background-size: contain;
-    height: 150px;
-    width: 150px;
-    border: 2px solid #c9c9c9;
-    float: left;}
+}
     
     
-    .cd-tens{
+.cd-mount{
+    display: none;
+    background-image: url(img/music/thumbs/mount-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+    }
+    
+.cd-donk{
+    display: none;
+    background-image: url(img/music/thumbs/donk-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+    }
+    
+    
+.cd-tens{
+    display: none;
     background-image: url(img/music/thumbs/tens-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
     float: left;
 }
 
     
 .cd-sos{
+    display: none;
     background-image: url(img/music/thumbs/sos-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
     float: left;
 }
+    
+
+    
+.covers-two { 
+    float: left; 
+    clear: both; 
+    width: 100%; 
+    margin-bottom: 18px; 
+    }
+    
+.covers-two a {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+}
+    
+.covers-two a img { 
+    float: left; 
+    }
+    
+.covers-two .rightmost { 
+    margin-right: 0; 
+    }
 
 
 .background{
@@ -188,18 +235,19 @@ table{
  
 }
 
-@media only screen and (max-width: 736px){
+@media only screen and (max-width: 738px){
     
     html {
     font-family: 'Lato', 'Arial', 'sans-serif';
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
-        max-width: 99%;
+    max-width: 99%;
 }
-   .section-main,
+    
+.section-main,
 .section-photo,
 .section-video,
 .section-music {
@@ -213,8 +261,8 @@ table{
     overflow-x: hidden;
 }  
     
-    logo {
-        position: relative;
+.logo {
+    position: relative;
     display: block;
     filter: invert(75%);
     max-width: 60%;
@@ -222,7 +270,7 @@ table{
     opacity: 0.6;
 }
     
-    .sticky {
+.sticky {
     position: fixed;
     top: 0;
     left: 0;
@@ -230,37 +278,33 @@ table{
     z-index: 9999;
 }
     
-  .sticky .logo-small {
+.sticky .logo-small {
     filter: invert(80%);
     width: 140px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }  
     
-    nav {
+nav {
     position: fixed;
     width: 100%;
     z-index: 1;
     top: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
     
   .nav2{
     margin-bottom: 10px;
 } 
     
-    .video-showcase {
+.video-showcase {
     position: relative;
     top: 180px;
     max-width:100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
     
-    .section-video iframe{
+.section-video iframe{
     height: 118px;
     width: 100%;
     border: 2px solid #c9c9c9;
@@ -276,11 +320,11 @@ table{
     
   .photo-showcase div {
     display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }  
     
  da-photo img{
+     height: 160px;
     max-width:100%;
     height: auto;
     transform: scale(1.2);
@@ -293,8 +337,7 @@ table{
     position: relative;
     top: 160px;
     width:100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .section-music {
@@ -369,9 +412,16 @@ table{
     
     
     
+    
+    
+    
+    
+    
+    
+    
 }
 
-@media only screen and (max-width: 639px){
+@media only screen and (max-width: 642px){
     
     html {
     font-family: 'Lato', 'Arial', 'sans-serif';
@@ -380,7 +430,7 @@ table{
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
-        max-width: 99%;
+    max-width: 99%;
 }
     
    .section-main,
@@ -397,8 +447,8 @@ table{
     overflow-x: hidden;
 }  
     
-    logo {
-        position: relative;
+    .logo {
+    position: relative;
     display: block;
     filter: invert(75%);
     max-width: 60%;
@@ -493,35 +543,42 @@ table{
     height: 198px;
     border: 2px solid #c9c9c9;
 }   
-    .cd-mount{background-image: url(img/music/thumbs/mount-thumb.jpg);
+    .cd-mount{
+    display: none;
+    background-image: url(img/music/thumbs/mount-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
-    float: left;} 
-    .cd-donk{background-image: url(img/music/thumbs/donk-thumb.jpg);
+    float: left;}
+    
+    .cd-donk{
+    display: none;
+    background-image: url(img/music/thumbs/donk-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
     float: left;}
     
     
     .cd-tens{
+    display: none;
     background-image: url(img/music/thumbs/tens-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
     float: left;
 }
 
     
 .cd-sos{
+    display: none;
     background-image: url(img/music/thumbs/sos-thumb.jpg);
     background-size: contain;
-    height: 150px;
-    width: 150px;
+    height: 130px;
+    width: 130px;
     border: 2px solid #c9c9c9;
     float: left;
 }
@@ -529,10 +586,9 @@ table{
 
 .background{
     display: none;
-    display: block;
     background-color:rgba(0,0,0,0.9);
-    width:150px; 
-    height:148px;
+    width:140px; 
+    height:138px;
     margin-top: 0.4px;
     padding-top: 3.2px;
 }
@@ -544,7 +600,7 @@ table{
 }
     
     table, td{
-        display: none;
+    display: none;
     color: #c9c9c9;
     font-size: 40%;
     border-collapse: collapse;
@@ -621,7 +677,7 @@ table{
 } 
     
     .video-showcase {
-        display: block;
+    display: block;
     position: relative;
     top: 120px;
     width:100%;
@@ -630,7 +686,7 @@ table{
 }
     
     .section-video iframe{
-        display: block;
+    display: block;
     height: auto;
     width: 50px;
     border: 2px solid #c9c9c9;

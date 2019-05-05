@@ -51,6 +51,13 @@ $('.music-showcase').waypoint(function (direction) {
 }, {
     offset: '50%'
 });
+     
+     $('.music-showcase2').waypoint(function (direction) {
+    $('.music-showcase2').addClass('animated fadeIn');
+}, {
+    offset: '50%'
+});
+     
 $('.photo-showcase').waypoint(function (direction) {
     $('.photo-showcase').addClass('animated fadeIn');
 }, {
