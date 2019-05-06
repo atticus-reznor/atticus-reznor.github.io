@@ -236,7 +236,7 @@ table{
 }
     
 
-@media only screen and (max-width: 813px){
+/*@media only screen and (max-width: 813px){
      html {
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-size: 20px;
@@ -1014,6 +1014,6 @@ table{
     font-size: 40%;
     border-collapse: collapse;
     vertical-align: middle; 
-} 
+} */
     
 }
