@@ -60,7 +60,7 @@
     
   .sticky .logo-small {
     filter: invert(80%);
-    width: 200px;
+    width: 240px;
     display: block;
     margin: 0 auto;
 }  
@@ -85,7 +85,7 @@
 }
     
     .section-video iframe{
-    height: 118px;
+    height: 228px;
     width: 100%;
     border: 2px solid #c9c9c9;
     
@@ -135,7 +135,7 @@
 }
 
 .section-music img{
-    height: 280px;
+    height: 160px;
     border: 2px solid #c9c9c9;
 }
    
