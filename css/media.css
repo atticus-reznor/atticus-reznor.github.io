@@ -41,8 +41,8 @@
     overflow-x: hidden;
 }  
     
-    logo {
-        position: relative;
+    .logo {
+    position: relative;
     display: block;
     filter: invert(75%);
     max-width: 60%;
@@ -135,7 +135,7 @@
 }
 
 .section-music img{
-    height: 130px;
+    height: 180px;
     border: 2px solid #c9c9c9;
 }
     
@@ -193,8 +193,8 @@
     
 .covers-two a {
     float: left;
-    width: 130px;
-    height: 130px;
+    width: 180px;
+    height: 180px;
     margin: 0 10px 10px 0;
     cursor: pointer;
 }
