@@ -139,7 +139,132 @@ table, td{
 
 
 @media only screen and (max-width: 1200px){
+  .section-main,
+.section-photo,
+.section-video,
+.section-music {
+    background-attachment:scroll;
+}
     
+    .music-showcase {
+    position: relative;
+    top: 160px;
+    width:100%;
+    margin: 0 auto;
+}
+    
+.music-showcase-two {
+    position: relative;
+    top: 160px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.section-music {
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-right: 1px;
+}
+
+.section-music img{
+    height: 130px;
+    border: 2px solid #c9c9c9;
+}
+    
+    
+.cd-mount{
+    display: none;
+    background-image: url(img/music/thumbs/mount-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+    
+.cd-donk{
+    display: none;
+    background-image: url(img/music/thumbs/donk-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+    
+    
+.cd-tens{
+    display: none;
+    background-image: url(img/music/thumbs/tens-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+
+    
+.cd-sos{
+    display: none;
+    background-image: url(img/music/thumbs/sos-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+    
+
+    
+.covers-two { 
+    float: left; 
+    clear: both; 
+    width: 100%; 
+    margin-bottom: 18px; 
+}
+    
+.covers-two a {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+}
+    
+.covers-two a img { 
+    float: left; 
+}
+    
+.covers-two .rightmost { 
+    margin-right: 0; 
+}
+
+
+.background{
+    display: none;
+    display: block;
+    background-color:rgba(0,0,0,0.9);
+    width:150px; 
+    height:148px;
+    margin-top: 0.4px;
+    padding-top: 3.2px;
+}
+    
+table{
+    display: none;
+    height: 135px; 
+    width: 130px;
+    margin: 3px 0 0px 20px;
+}
+    
+table, td{
+    display: none;
+    color: #c9c9c9;
+    font-size: 40%;
+    border-collapse: collapse;
+    vertical-align: middle;   
 }
     
 
