@@ -138,52 +138,13 @@
     height: 180px;
     border: 2px solid #c9c9c9;
 }
-    
-    
-.cd-mount{
-    display: none;
-    background-image: url(img/music/thumbs/mount-thumb.jpg);
-    background-size: contain;
-    height: 130px;
-    width: 130px;
-    border: 2px solid #c9c9c9;
-    float: left;
-    }
-    
-.cd-donk{
-    display: none;
-    background-image: url(img/music/thumbs/donk-thumb.jpg);
-    background-size: contain;
-    height: 130px;
-    width: 130px;
-    border: 2px solid #c9c9c9;
-    float: left;
-    }
-    
-    
-.cd-tens{
-    display: none;
-    background-image: url(img/music/thumbs/tens-thumb.jpg);
-    background-size: contain;
-    height: 130px;
-    width: 130px;
-    border: 2px solid #c9c9c9;
-    float: left;
-}
-
-    
-.cd-sos{
-    display: none;
-    background-image: url(img/music/thumbs/sos-thumb.jpg);
-    background-size: contain;
-    height: 130px;
-    width: 130px;
-    border: 2px solid #c9c9c9;
-    float: left;
-}
-    
-
-    
+   
+.cd-mount,
+.cd-donk,
+.cd-tens,
+.cd-sos{ 
+      display: none;}
+   
 .covers-two { 
     float: left; 
     clear: both; 
@@ -193,8 +154,8 @@
     
 .covers-two a {
     float: left;
-    width: 180px;
-    height: 180px;
+    width: 250px;
+    height: 250px;
     margin: 0 10px 10px 0;
     cursor: pointer;
 }
