@@ -5,23 +5,6 @@
     display: none;
     }
    
-   table{
-    display: none;
-    height: 135px; 
-    width: 130px;
-    margin: 3px 0 0px 20px;
-}
-    
-table, td{
-    display: none;
-    color: #c9c9c9;
-    font-size: 40%;
-    border-collapse: collapse;
-    vertical-align: middle; 
-}
-    
-}
-
 @media only screen (orientation: landscape) and (max-width: 3025px){
     
 .section-main,
