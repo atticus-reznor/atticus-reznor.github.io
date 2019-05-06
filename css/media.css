@@ -10,6 +10,233 @@
 @media only screen and (max-width: 1200px){
     
 }
+
+@media only screen 
+  and (min-width: 1024px) 
+  and (max-height: 1366px) 
+  and (-webkit-min-device-pixel-ratio: 1.5) {
+     
+      html {
+    font-family: 'Lato', 'Arial', 'sans-serif';
+    font-size: 20px;
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+    user-select: none;
+    overflow-x: hidden;
+    max-width: 99%;
+}
+    .covers-two{
+    display: block;
+        
+    }
+    
+   .section-main,
+.section-photo,
+.section-video,
+.section-music {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    top: 0;
+    max-width: 100%;
+    width:100%;
+    overflow-x: hidden;
+}  
+    
+    logo {
+        position: relative;
+    display: block;
+    filter: invert(75%);
+    max-width: 60%;
+    margin: 5px auto 0 auto;
+    opacity: 0.6;
+}
+    
+    .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+}
+    
+  .sticky .logo-small {
+    filter: invert(80%);
+    width: 140px;
+    display: block;
+    margin: 0 auto;
+}  
+    
+    nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    margin: 0 auto;
+}
+    
+  .nav2{
+    margin-bottom: 10px;
+} 
+    
+    .video-showcase {
+    position: relative;
+    top: 180px;
+    max-width:100%;
+    margin: 0 auto;
+}
+    
+    .section-video iframe{
+    height: 118px;
+    width: 100%;
+    border: 2px solid #c9c9c9;
+    
+}
+   
+ .photo-showcase {
+    position: relative;
+    top: 160px;
+    max-width:100%;
+    margin: 0;
+}   
+    
+  .photo-showcase div {
+    display: inline-block;
+    margin: 0 auto;
+}  
+    
+ da-photo img{
+    max-width:100%;
+    height: auto;
+    transform: scale(1.2);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity:0.9;
+    
+}   
+    
+ .music-showcase {
+    position: relative;
+    top: 160px;
+    width:100%;
+    margin: 0 auto;
+}
+    
+    .music-showcase-two {
+    position: relative;
+    top: 160px;
+    width:100%;
+    margin: 0 auto;
+}
+
+.section-music {
+    display: block;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    padding-right: 1px;
+}
+
+.section-music img{
+    height: 130px;
+    border: 2px solid #c9c9c9;
+}
+    
+    
+.cd-mount{
+    display: none;
+    background-image: url(img/music/thumbs/mount-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+    }
+    
+.cd-donk{
+    display: none;
+    background-image: url(img/music/thumbs/donk-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+    }
+    
+    
+.cd-tens{
+    display: none;
+    background-image: url(img/music/thumbs/tens-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+
+    
+.cd-sos{
+    display: none;
+    background-image: url(img/music/thumbs/sos-thumb.jpg);
+    background-size: contain;
+    height: 130px;
+    width: 130px;
+    border: 2px solid #c9c9c9;
+    float: left;
+}
+    
+
+    
+.covers-two { 
+    float: left; 
+    clear: both; 
+    width: 100%; 
+    margin-bottom: 18px; 
+    }
+    
+.covers-two a {
+    float: left;
+    width: 130px;
+    height: 130px;
+    margin: 0 10px 10px 0;
+    cursor: pointer;
+}
+    
+.covers-two a img { 
+    float: left; 
+    }
+    
+.covers-two .rightmost { 
+    margin-right: 0; 
+    }
+
+
+.background{
+    display: none;
+    display: block;
+    background-color:rgba(0,0,0,0.9);
+    width:150px; 
+    height:148px;
+    margin-top: 0.4px;
+    padding-top: 3.2px;
+}
+table{
+    display: none;
+    height: 135px; 
+    width: 130px;
+    margin: 3px 0 0px 20px;
+}
+    
+    table, td{
+        display: none;
+    color: #c9c9c9;
+    font-size: 40%;
+    border-collapse: collapse;
+    vertical-align: middle; 
+}
+
+     
+}
     
 
 @media only screen and (max-width: 813px){
