@@ -135,7 +135,7 @@
 }
 
 .section-music img{
-    height: 160px;
+    height: 180px;
     border: 2px solid #c9c9c9;
 }
    
@@ -150,8 +150,8 @@
     
 .covers-two a {
     float: left;
-    width: 160px;
-    height: 160px;
+    width: 180px;
+    height: 180px;
     margin: 0 5px 10px 0;
     cursor: pointer;
 }
