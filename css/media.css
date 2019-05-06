@@ -103,7 +103,7 @@
     margin: 0 auto;
 }  
     
- da-photo img{
+ .da-photo img{
     max-width:100%;
     height: auto;
     transform: scale(1.2);
@@ -150,8 +150,8 @@
     
 .covers-two a {
     float: left;
-    width: 250px;
-    height: 250px;
+    width: 160px;
+    height: 160px;
     margin: 0 5px 10px 0;
     cursor: pointer;
 }
