@@ -27,7 +27,7 @@
         
     }
     
-   .section-main,
+ .section-main,
 .section-photo,
 .section-video,
 .section-music {
@@ -139,11 +139,7 @@
     border: 2px solid #c9c9c9;
 }
    
-.cd-mount,
-.cd-donk,
-.cd-tens,
-.cd-sos{ 
-      display: none;}
+
    
 .covers-two { 
     float: left; 
@@ -156,7 +152,7 @@
     float: left;
     width: 250px;
     height: 250px;
-    margin: 0 10px 10px 0;
+    margin: 0 5px 10px 0;
     cursor: pointer;
 }
     
@@ -167,6 +163,12 @@
 .covers-two .rightmost { 
     margin-right: 0; 
     }
+   
+ .cd-mount,
+.cd-donk,
+.cd-tens,
+.cd-sos{ 
+      display: none;}
 
 
 .background{
