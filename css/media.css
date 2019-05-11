@@ -108,7 +108,7 @@
         margin: 30px 0;
     }
     
-    .section-video iframe{
+.section-video iframe{
     height: 138px;
     width: 100%;
     border: 2px solid #c9c9c9;
@@ -156,7 +156,7 @@
 .section-music img{
     height: 110px;
     border: 2px solid #c9c9c9;
-    margin: 5px;
+    margin: 4px;
 }
 
     
