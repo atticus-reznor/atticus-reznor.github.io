@@ -97,8 +97,8 @@
 .video-showcase {
     position: relative;
     display: block;
-    top: 160px;
-    max-width:70%;
+    top: 130px;
+    max-width:80%;
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -117,8 +117,8 @@
    
  .photo-showcase {
     position: relative;
-    top: 160px;
-    max-width:70%;
+    top: 130px;
+    max-width:80%;
     margin-top: 5px;
      margin-left:auto;
      margin-right:auto;
@@ -127,7 +127,7 @@
     
   .photo-showcase div {
     display: inline-block;
-      margin: 5px;
+      margin: 10px;
       
 }  
     
@@ -146,39 +146,29 @@
     top: 120px;
     padding: 0;
     display: block;
-        
 }
 
 .section-music {
     width: 100%;
-    
 }
 
 .section-music img{
-    height: 140px;
+    height: 120px;
     border: 2px solid #c9c9c9;
-    margin: 5px;
+    padding: 10px;
 }
-.covers-two {
-   margin: 0;
-   height: 0px;
-}  
-    
-.covers-two a {
-    width: 140px;
-    height: 140px;
-    cursor: pointer;
-}
+
     
    
 .cd-mount,
 .cd-donk,
 .cd-tens,
-.cd-sos{ 
-      display: none;}
+.cd-sos{
+    display: none;
+}
 
 
-.background{
+.background {
     display: none;
     display: block;
     background-color:rgba(0,0,0,0.9);
@@ -187,15 +177,17 @@
     margin-top: 0.4px;
     padding-top: 3.2px;
 }
-table{
+    
+table {
     display: none;
     height: 135px; 
     width: 130px;
     margin: 3px 0 0px 20px;
 }
     
-    table, td{
-        display: none;
+    table, 
+    td {
+    display: none;
     color: #c9c9c9;
     font-size: 40%;
     border-collapse: collapse;
