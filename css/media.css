@@ -98,7 +98,7 @@
     position: relative;
     display: block;
     top: 100px;
-    max-width:80%;
+    max-width:60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5px;
@@ -109,7 +109,7 @@
     }
     
 .section-video iframe{
-    height: 138px;
+    height: 122px;
     width: 100%;
     border: 2px solid #c9c9c9;
     
@@ -118,7 +118,7 @@
  .photo-showcase {
     position: relative;
     top: 100px;
-    max-width:80%;
+    max-width:60%;
      margin-left:auto;
      margin-right:auto;
      
