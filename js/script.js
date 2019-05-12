@@ -10,6 +10,15 @@
   offset: '25%'
 })*/
      
+
+	$('.background').hover(
+		function () {
+			$(this).animate({opacity:'1'});
+		},
+		function () {
+			$(this).animate({opacity:'0'});
+		});	
+     
      
      /*smooth scroll*/
 function filterPath(string) {
