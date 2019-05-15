@@ -4,6 +4,9 @@
     display: none;
     }
     
+    
+ 
+    
 }
 
 
@@ -59,7 +62,7 @@
     overflow-x: hidden;
 } 
     
-    .logo {
+.logo {
     position: relative;
     display: block;
     filter: invert(75%);
@@ -69,7 +72,7 @@
     top: 50px;
 }
     
-    .sticky {
+.sticky {
     position: fixed;
     top: 0;
     left: 0;
@@ -77,16 +80,22 @@
     z-index: 9999;
 }
     
-  .sticky .logo-small {
+.sticky .logo-small {
     filter: invert(80%);
     width: 240px;
     display: block;
     margin: 0 auto;
 }  
     
-    .sticky .nav2 {
-        display: none;
+.sticky .nav2 {
+    display: block;
+    width:100%;
+    position: fixed;
+    bottom: 0px;
+    margin: 0 auto 5px auto;
     }
+    
+    
     
     nav {
     position: fixed;
