@@ -20,9 +20,9 @@
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
-    max-width: 99vw;
+    max-width: 100vw;
          margin-left: auto;
-         margin-right: auto
+         margin-right: auto;
 }
     .covers-two{
     display: block;
@@ -166,6 +166,7 @@
 
 .section-music {
     width: 100%;
+    box-sizing: border-box;
 }
 
 .section-music img{
