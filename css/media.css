@@ -20,7 +20,7 @@
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
-    max-width: 99%;
+    max-width: 100vw;
 }
     .covers-two{
     display: block;
@@ -107,22 +107,23 @@
 .video-showcase {
     position: relative;
     display: block;
-    max-width:60%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100vw;
     margin-top: 3%;
     height: 100vh;
     top: 0;
 }
     
 .video-showcase > .space {
-    width: 100%;
-    margin-bottom: 15px;
+    display: block;
+    max-width: 100%;
+    height:auto;
+    margin-bottom: 25px;
+    text-align: center;
     }
     
 .section-video iframe{
-    height: 121px;
-    width: 100%;
+    height: auto;
+    max-width: 280px;
     border: 2px solid #c9c9c9;
     
 }
@@ -130,7 +131,8 @@
  .photo-showcase {
     position: relative;
     top: 100px;
-    max-width:60%;
+    max-width: 400px;
+     width: 62%;
      margin-left:auto;
      margin-right:auto;
      
@@ -143,7 +145,7 @@
 }  
     
  .da-photo img{
-    max-width:100%;
+    max-width:320px;
     height: auto;
     transform: scale(1.2);
     transition: transform 0.5s, opacity 0.5s;
