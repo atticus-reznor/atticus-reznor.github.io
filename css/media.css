@@ -88,11 +88,15 @@
 }  
     
 .sticky .nav2 {
-    display: block;
+    display: none;
     width:100%;
     position: fixed;
     bottom: 0px;
     margin: 0 auto 5px auto;
+    }
+    
+    .sticky .nav2:fullscreen {
+        display: block;
     }
     
     
@@ -116,7 +120,9 @@
     position: relative;
     width: 100%;
     top: 102px;
-    }
+    height: 100vh;
+    overflow-y: hidden;
+}
     
 .video-showcase {
     position: relative;
@@ -124,7 +130,12 @@
     width: 100%;
     margin-top: 3%;
     top: 0;
-}
+    box-sizing: border-box;
+    }
+
+    .video-showcase .row {
+        height: 100%;
+    }
     
 .video-showcase > .space {
     display: block;
