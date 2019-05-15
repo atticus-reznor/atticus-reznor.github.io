@@ -54,10 +54,10 @@
 .section-music {
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    height: 110vh;
+    background-attachment: scroll;
+    height: 100vh;
     max-width: 100%;
-    width: 110%;
+    width: 100%;
     overflow-x: hidden;
 } 
     
