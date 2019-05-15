@@ -1,10 +1,10 @@
 ﻿ $(document).ready(function () {
-     /*waypoint*/
+     //waypoint
     $('.section-photo').waypoint(function (direction)
     {if (direction === "down") {$('nav').addClass('sticky'); } else { $('nav').removeClass('sticky'); } }, 
     {offset: '40px;'});
      
-     /*var waypoints = $('#handler-first').waypoint(function(direction) {
+     /*$('#handler-first').waypoint(function(direction) {
   notify(this.element.id + ' hit 25% from top of window') 
 }, {
   offset: '25%'
@@ -17,51 +17,39 @@
 		},
 		function () {
 			$(this).animate({opacity:'0'});
-		});	
+		});
      
-     
-     /*smooth scroll*/
-function filterPath(string) {
-  return string
-    .replace(/^\//, '')
-    .replace(/(index|default).[a-zA-Z]{3,4}$/, '')
-    .replace(/\/$/, '');
-}
+     // Add smooth scrolling
+  $("a").on('click', function(event) {
 
-var locationPath = filterPath(location.pathname);
-$('a[href*="#"]').each(function () {
-  var thisPath = filterPath(this.pathname) || locationPath;
-  var hash = this.hash;
-  if ($("#" + hash.replace(/#/, '')).length) {
-    if (locationPath === thisPath && (location.hostname == this.hostname || !this.hostname) && this.hash.replace(/#/, '')) {
-      var $target = $(hash), target = this.hash;
-      if (target) {
-        $(this).click(function (event) {
-          event.preventDefault();
-          $('html, body').animate({scrollTop: $target.offset().top}, 1000, function () {
-            location.hash = target; 
-            $target.focus();
-            if ($target.is(":focus")){ //checking if the target was focused
-              return false;
-            }else{
-              $target.attr('tabindex','-1'); //Adding tabindex for elements not focusable
-              $target.focus(); //Setting focus
-            };
-          });       
-        });
-      }
-    }
-  }
-});
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
      
-     /*animated fade in*/
+     //animated fade in
 $('.music-showcase').waypoint(function (direction) {
     $('.music-showcase').addClass('animated fadeIn');
 }, {
     offset: '50%'
 });
      
-     $('.music-showcase2').waypoint(function (direction) {
+$('.music-showcase2').waypoint(function (direction) {
     $('.music-showcase2').addClass('animated fadeIn');
 }, {
     offset: '50%'
@@ -72,19 +60,23 @@ $('.photo-showcase').waypoint(function (direction) {
 }, {
     offset: '50%'
 });
+     
 $('.video-showcase').waypoint(function (direction) {
     $('.video-showcase').addClass('animated fadeIn');
 }, {
     offset: '50%'
 });
+     
 $('.logo-small').waypoint(function (direction) {
     $('.logo-small').addClass('animated fadeIn');
 }, {
     offset: '50%'
 });
+     
 $('.logo').waypoint(function (direction) {
     $('.logo').addClass('animated fadeIn');
-}, {offset: '50%'
+}, {
+    offset: '50%'
 });
      
     
