@@ -48,6 +48,11 @@ nav {
     list-style: none;
     text-align: center;
 }
+
+.nav1 {
+    margin-bottom: 4px;
+}
+
 .nav2 {
     margin-bottom: 210px;
 }
@@ -119,7 +124,7 @@ nav ul {
 
 .sticky .logo-small {
     filter: invert(80%);
-    width: 240px;
+    width: 280px;
     display: block;
     margin-left: auto;
     margin-right: auto;
