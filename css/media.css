@@ -37,7 +37,7 @@
     .section-photo,
     .section-video,
     .section-music {
-        background-size: cover 100%;
+        background-size: cover;
         background-position: center;
         background-attachment: fixed;
         height: 100vh;
