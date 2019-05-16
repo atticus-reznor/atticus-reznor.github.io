@@ -130,6 +130,10 @@ nav ul {
     margin-right: auto;
 }
 
+.sticky .logo-small:hover {
+    filter: invert(90%);
+}
+
 .sticky .nav1, .sticky .nav2{
     list-style: none;
 }
@@ -245,14 +249,14 @@ nav ul {
 .da-photo img {
     width: 100%;
     height: auto;
-    transform: scale(1.2);
+    transform: scale(1.3);
     transition: transform 0.5s, opacity 0.5s;
     opacity: 0.9;
     
 }
 
 .da-photo img:hover{
-    transform: scale(1.04);
+    transform: scale(1.02);
     opacity: 1;
 }
 
@@ -353,7 +357,13 @@ table, td {
     color: #c9c9c9;
     font-size: 80%;
     border-collapse: collapse;
-    vertical-align: middle; 
+    vertical-align: middle;
+    
+}
+
+td:focus{
+    outline:0;
+    text-decoration: none;
 }
 
 table {
