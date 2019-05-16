@@ -37,9 +37,9 @@
     .section-photo,
     .section-video,
     .section-music {
-        background-size: cover auto;
+        background-size: cover 100%;
         background-position: center;
-        background-attachment: scroll;
+        background-attachment: fixed;
         height: 100vh;
         min-height: 100%;
         min-width: 100%;
