@@ -353,10 +353,16 @@ a:active{
     text-decoration: none;
 }
 
-table, td {
+table, td{
     color: #c9c9c9;
     font-size: 80%;
     border-collapse: collapse;
+    vertical-align: middle;
+}
+
+th{
+    color: #c9c9c9;
+    font-size: 90%;
     vertical-align: middle;
     
 }
