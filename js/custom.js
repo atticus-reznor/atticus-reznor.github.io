@@ -16,7 +16,7 @@ $(document).ready(function () {
   
   var orientationChange = function () {
     var $element = $('.section-photo, .section-video, .section-music, .section-main');
-    $element.css('height', '115vh'); // Change this to your own original vh value.
+    $element.css('height', '114vh'); // Change this to your own original vh value.
     $element.css('height', $element.height() + 'px');
   };
 
