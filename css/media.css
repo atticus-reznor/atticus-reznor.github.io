@@ -14,9 +14,8 @@
         text-rendering: optimizeLegibility;
         user-select: none;
         overflow-x: hidden;
-        max-width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
+        width: 100vw;
+        margin: 0 auto;
     }
     .covers-two {
         display: block;
@@ -108,8 +107,7 @@
     .photo-showcase {
         position: relative;
         top: 110px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     .da-photo {
         min-width: 200px;
@@ -155,30 +153,23 @@
         user-select: none;
         overflow-x: hidden;
         max-width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto
     }
     .covers-two {
         display: block;
-        
     }
     .section-main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main-small.jpg);
     }
-    
     .section-photo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo-small.jpg);
     }
-    
     .section-video {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video-small.jpg);
     }
-    
     .section-music {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music-small.jpg);
     }
-    
-    
     .section-main,
     .section-photo,
     .section-video,
@@ -267,8 +258,7 @@
         top: 100px;
         max-width: 400px;
         width: 61%;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     .photo-showcase div {
         display: inline-block;
@@ -341,8 +331,7 @@
         user-select: none;
         overflow-x: hidden;
         max-width: 100vw;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     .covers-two {
         display: block;
@@ -350,19 +339,15 @@
     .section-main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main.jpg);
     }
-    
     .section-photo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo.jpg);
     }
-    
     .section-video {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video2.jpeg);
     }
-    
     .section-music {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music.jpg);
     }
-    
     .section-main,
     .section-photo,
     .section-video,
@@ -438,8 +423,7 @@
     .photo-showcase {
         position: relative;
         top: 110px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0 auto;
     }
     .da-photo {
         min-width: 200px;
