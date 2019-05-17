@@ -20,12 +20,12 @@ $(document).ready(function () {
     $element.css('height', $element.height() + 'px');
   };
 
-  var s = screen;
+  //var s = screen;
   var o = s.orientation || s.msOrientation || s.mozOrientation;
   o.addEventListener('change', function () {
     setTimeout(function () {
       orientationChange();
     }, 250);
   }, true);
-  orientationChange();
+  orientationChange();//
 });
