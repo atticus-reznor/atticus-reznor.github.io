@@ -360,17 +360,12 @@ table, td{
     vertical-align: middle;
 }
 
-th{
+th {
     color: #c9c9c9;
-    font-size: 90%;
-    vertical-align: middle;
-    
+    font-size: 100%;
+    vertical-align: middle;   
 }
 
-td:focus{
-    outline:0;
-    text-decoration: none;
-}
 
 table {
     height: 270px; 
