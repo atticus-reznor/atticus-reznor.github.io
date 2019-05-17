@@ -207,16 +207,16 @@
         display: block;
     }
     .section-main {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main-small.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main.jpg);
     }
     .section-music {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music-small.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music.jpg);
     }
     .section-video {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video-small.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video.jpg);
     }
     .section-photo {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo-small.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo.jpg);
     }
     .section-main,
     .section-photo,
@@ -232,7 +232,7 @@
         position: relative;
         display: block;
         filter: invert(75%);
-        max-width: 80%;
+        max-width: 0%;
         margin: 5px auto 0 auto;
         opacity: 0.6;
         top: 50px;
