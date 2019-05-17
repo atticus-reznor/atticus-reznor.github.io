@@ -26,6 +26,6 @@ $(document).ready(function () {
     setTimeout(function () {
       orientationChange();
     }, 250);
-  }, false);
+  }, true);
   orientationChange();
 });
