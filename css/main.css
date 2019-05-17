@@ -8,10 +8,12 @@ html {
     width: 100vw;
 }
 
-.clearfix {zoom: 1}
+.clearfix {
+    zoom: 1
+}
 
 .clearfix:after {
-    content:'.';
+    content: '.';
     display: block;
     clear: both;
     height: 0;
@@ -20,6 +22,7 @@ html {
 
 
 /*--- logo ---*/
+
 .logo-small {
     display: none;
 }
@@ -32,9 +35,12 @@ html {
     opacity: 0.6;
 }
 
+
 /*--- logo ---*/
 
+
 /*--- navigation ---*/
+
 nav {
     position: fixed;
     width: 100%;
@@ -43,7 +49,9 @@ nav {
     margin: 0 auto;
 }
 
-.nav1, .nav2, nav3 {
+.nav1,
+.nav2,
+nav3 {
     list-style: none;
     text-align: center;
 }
@@ -55,7 +63,6 @@ nav {
 .nav2 {
     margin-bottom: 210px;
 }
-
 
 nav ul {
     padding-left: 0;
@@ -105,6 +112,8 @@ nav ul {
     color: #f3f3f3;
     border-bottom: 2px solid #f3f3f3;
 }
+
+
 /*--- navigation ---*/
 
 
@@ -134,11 +143,12 @@ nav ul {
     filter: invert(90%);
 }
 
-.sticky .nav1, .sticky .nav2{
+.sticky .nav1,
+.sticky .nav2 {
     list-style: none;
 }
 
-.sticky .nav2{
+.sticky .nav2 {
     margin-bottom: 0;
 }
 
@@ -184,6 +194,8 @@ nav ul {
     color: #f3f3f3;
     border-bottom: 2px solid #f3f3f3;
 }
+
+
 /*--- sticky nav ---*/
 
 
@@ -195,11 +207,10 @@ nav ul {
 
 .section-photo {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/photo.jpg);
-    
 }
 
 .section-video {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/video2.jpeg);   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(img/video2.jpeg);
 }
 
 .section-music {
@@ -219,6 +230,8 @@ nav ul {
     overflow-x: hidden;
     box-sizing: border-box;
 }
+
+
 /*--- background image control ---*/
 
 
@@ -255,7 +268,7 @@ nav ul {
     opacity: 0.9;
 }
 
-.da-photo img:hover{
+.da-photo img:hover {
     transform: scale(1.04);
     opacity: 1;
 }
@@ -267,7 +280,7 @@ nav ul {
     margin: 0 auto;
 }
 
-.section-video iframe{
+.section-video iframe {
     height: 228px;
     width: 100%;
     border: 2px solid #c9c9c9;
@@ -288,12 +301,14 @@ nav ul {
     padding-right: 1px;
 }
 
-.section-music img{
+.section-music img {
     height: 298px;
     border: 2px solid #c9c9c9;
 }
 
+
 /*--- sections ---*/
+
 
 /*--- fade in ---*/
 
@@ -311,46 +326,47 @@ nav ul {
     opacity: 1;
 }
 
-
-.showcase{
+.showcase {
     max-width: 1360px;
     width: 100%;
     height: 100%;
     margin: 0 auto;
 }
 
+
 /*--- fade in ---*/
 
+
 /*--- cd cover text ---*/
-.cd-mount, 
+
+.cd-mount,
 .cd-donk,
-.cd-tens, 
-.cd-sos{
+.cd-tens,
+.cd-sos {
     height: 300px;
     max-width: 300px;
     border: 2px solid #c9c9c9;
     float: left;
 }
 
-
-.background{
+.background {
     display: block;
-    background-color:rgba(0,0,0,0.9);
-    width: 300px; 
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 300px;
     height: 296px;
     margin-top: 0.4px;
     padding-top: 3.2px;
 }
 
-td 
-a:link, 
-a:visited, 
-a:hover, 
-a:active{
+td a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
 }
 
-table, td{
+table,
+td {
     color: #c9c9c9;
     font-size: 80%;
     border-collapse: collapse;
@@ -360,13 +376,14 @@ table, td{
 th {
     color: #c9c9c9;
     font-size: 100%;
-    vertical-align: middle;   
+    vertical-align: middle;
 }
 
-
 table {
-    height: 270px; 
+    height: 270px;
     width: 260px;
     margin: 3px 0 0 20px;
 }
+
+
 /*--- cd cover text ---*/
