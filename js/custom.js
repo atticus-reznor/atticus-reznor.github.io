@@ -27,7 +27,7 @@ $(document).ready(function () {
       orientationChange();
     }, 250);
   }, false);
-  orientationChange();});
+  orientationChange();
     
-    window.onorientationchange = function() { window.location.reload(); }
-);
+    
+});
