@@ -5,6 +5,7 @@ html {
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
+    width: 100vw;
 }
 
 .clearfix {zoom: 1}
@@ -39,9 +40,7 @@ nav {
     width: 100%;
     z-index: 1;
     top: 0;
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .nav1, .nav2, nav3 {
@@ -128,8 +127,7 @@ nav ul {
     filter: invert(80%);
     width: 280px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .sticky .logo-small:hover {
@@ -239,8 +237,7 @@ nav ul {
 
 .photo-showcase div {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .da-photo {
@@ -267,8 +264,7 @@ nav ul {
     position: relative;
     top: 300px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .section-video iframe{
@@ -281,8 +277,7 @@ nav ul {
     position: relative;
     top: 300px;
     width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 .section-music {
