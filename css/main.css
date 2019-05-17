@@ -1,11 +1,11 @@
-html {
+body {
     font-family: 'Lato', 'Arial', 'sans-serif';
     font-size: 20px;
     font-weight: 400;
     text-rendering: optimizeLegibility;
     user-select: none;
     overflow-x: hidden;
-    width: 100vw;
+    
 }
 
 .clearfix {
