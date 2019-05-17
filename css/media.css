@@ -42,7 +42,6 @@
         background-attachment: scroll;
         height: 100vh;
         overflow-x: hidden;
-        transition: 3s;
     }
     .logo {
         position: relative;
