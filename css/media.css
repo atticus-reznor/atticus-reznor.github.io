@@ -160,19 +160,25 @@
     }
     .covers-two {
         display: block;
+        
     }
     .section-main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main-small.jpg);
     }
-    .section-music {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music-small.jpg);
-    }
-    .section-video {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video-small.jpg);
-    }
+    
     .section-photo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo-small.jpg);
     }
+    
+    .section-video {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video-small.jpg);
+    }
+    
+    .section-music {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music-small.jpg);
+    }
+    
+    
     .section-main,
     .section-photo,
     .section-video,
@@ -344,15 +350,19 @@
     .section-main {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/main.jpg);
     }
-    .section-music {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music.jpg);
-    }
-    .section-video {
-        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video.jpg);
-    }
+    
     .section-photo {
         background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/photo.jpg);
     }
+    
+    .section-video {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/video2.jpg);
+    }
+    
+    .section-music {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/music.jpg);
+    }
+    
     .section-main,
     .section-photo,
     .section-video,
