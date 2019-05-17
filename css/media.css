@@ -225,7 +225,7 @@
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
-        height: 100vh;
+        height: 101vh;
         overflow-x: hidden;
     }
     .logo {
