@@ -126,6 +126,7 @@
         margin-top: 3%;
     }
     .da-photo img {
+        width:100%;
         max-width: 320px;
         height: auto;
         transform: scale(1.2);
