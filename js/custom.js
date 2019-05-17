@@ -15,7 +15,7 @@ $(document).ready(function () {
   'use strict';
   
   var orientationChange = function () {
-    var $element = $('.selector');
+    var $element = $('.section-photo');
     $element.css('height', '100vh'); // Change this to your own original vh value.
     $element.css('height', $element.height() + 'px');
   };
