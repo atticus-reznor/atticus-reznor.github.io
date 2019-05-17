@@ -28,6 +28,4 @@ $(document).ready(function () {
     }, 250);
   }, false);
   orientationChange();
-    
-    
 });
