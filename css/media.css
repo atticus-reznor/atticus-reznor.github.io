@@ -225,14 +225,14 @@
         background-size: cover;
         background-position: center;
         background-attachment: scroll;
-        height: 116vh;
+        height: 100vh;
         overflow-x: hidden;
     }
     .logo {
         position: relative;
         display: block;
         filter: invert(75%);
-        max-width: 0%;
+        max-width: 50%;
         margin: 5px auto 0 auto;
         opacity: 0.6;
         top: 50px;
