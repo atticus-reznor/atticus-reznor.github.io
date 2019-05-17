@@ -282,7 +282,7 @@
     .video-showcase {
         position: relative;
         width: 100%;
-        top: 120px;
+        top: 110px;
     }
     
     video-showcase > .space {
@@ -297,7 +297,7 @@
     }
     .photo-showcase {
         position: relative;
-        top: 120px;
+        top: 110px;
         margin-left: auto;
         margin-right: auto;
     }
@@ -315,14 +315,14 @@
         opacity: 0.9;
     }
     
-    .music-showcase2 {
+    .col-sm-3 {
         padding: 0;
     }
     
     .covers-two {
         display: block;
         position: relative;
-        top: 120px;
+        top: 110px;
         text-align: center;
     }
    
