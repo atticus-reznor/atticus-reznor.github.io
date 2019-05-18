@@ -88,7 +88,7 @@
     .row {
         display: flex;
         flex-direction: row;
-        margin: auto 0;
+        margin: 0;
     }
     .video-showcase {
         position: relative;
