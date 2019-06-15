@@ -224,7 +224,7 @@ nav ul {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    height: calc(100vh - 16px);
+    height: 100%;
     top: 0;
     width: 100%;
     overflow-x: hidden;
