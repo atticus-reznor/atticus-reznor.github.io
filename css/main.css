@@ -329,7 +329,7 @@ nav ul {
 .showcase {
     max-width: 1360px;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 
